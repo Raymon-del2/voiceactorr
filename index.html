@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Actor - Your Gateway to Voice Excellence</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Add animate.css for cool animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo animate__animated animate__fadeIn">VA</div>
+<div class="auth">
+    <!-- Removed Sign In Button -->
+    <form id="emailSignInForm" class="animate__animated" style="display: none;">
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>            <form id="emailSignInForm" class="animate__animated" style="display: none;">
+                <input type="email" id="emailInput" placeholder="Enter your email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <h1 class="animate__animated animate__fadeInDown">Welcome to Voice Actor</h1>
+        <p class="animate__animated animate__fadeIn">Your voice can change the world! Join our community of talented voice artists.</p>
+        
+        <!-- Add Terms and Policy section -->
+        <div class="terms-section animate__animated animate__fadeIn">
+            <p class="policy-text">By signing in, you agree to our:</p>
+            <ul>
+                <li>Terms of Service</li>
+                <li>Privacy Policy</li>
+                <li>Community Guidelines</li>
+            </ul>
+        </div>
+
+        <form id="uploadForm" class="animate__animated animate__fadeInUp">
+            <input type="file" id="fileInput" accept="audio/*" required>
+            <button type="submit">Upload Your Voice</button>
+            <div id="progressBar" class="progress-bar"></div>
+        </form>
+        <p>Join our community of voice actors and bring your talent to life!</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 to infinity Voice Actor. All rights reserved.</p>
+    </footer>
+    
+    <!-- Firebase SDK -->
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+    
+    <div id="splashScreen" class="splash-screen animate__animated" style="display: none;">
+        <div class="splash-content">
+            <h2>Sign In</h2>
+            <form id="splashSignInForm">
+                <input type="email" id="splashEmailInput" placeholder="Enter your email" required>
+                <input type="password" id="splashPasswordInput" placeholder="Enter your password" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

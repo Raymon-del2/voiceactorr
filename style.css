@@ -83,22 +83,6 @@ h1 {
     height: 20px;
 }
 
-/* Email Sign In Button */
-#emailSignInButton {
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
-    transition: box-shadow 0.3s ease-in-out;
-}
-
-#emailSignInButton:hover {
-    box-shadow: 0 0 20px rgba(255, 0, 0, 1);
-}
-
 /* Form Styles */
 #uploadForm {
     background: rgba(255, 255, 255, 0.1);
@@ -173,43 +157,6 @@ button[type="submit"]:hover {
 
 .terms-section li:hover {
     color: #fff;
-}
-
-/* Splash Screen Styles */
-.splash-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.splash-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.splash-content input {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 80%;
-}
-
-.splash-content button {
-    padding: 10px 20px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 /* Footer */
